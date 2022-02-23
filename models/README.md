@@ -26,3 +26,9 @@ if __name__ == "__main__":
 
 #PADDING=SPAZIATURA
 #fg=colore
+
+#Per direzionare in base alla colonna(in questo caso a "west")
+#sticky="w"
+
+#Per creare un Input
+#text_input = tk.Entry()
