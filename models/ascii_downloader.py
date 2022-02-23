@@ -1,7 +1,7 @@
 import tkinter as tk
 import requests
 
-window =tk.Tk()
+window = tk.Tk()
 window.geometry("900x550")
 window.title("ASCII ART DOWNLOADER")
 window.grid_columnconfigure(0, weight=1)
@@ -35,7 +35,6 @@ text_input.grid(row=1, column=0, sticky="WE", padx=25)
 
 download_button = tk.Button(text="DOWNLOAD ASCII ART", command=download_ascii)
 download_button.grid(row=2, column=0, sticky="WE", padx=25, pady=25)
-
 
 if __name__ == "__main__":
     window.mainloop()
