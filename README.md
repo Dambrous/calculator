@@ -1,2 +1,2 @@
 # calculator
-Calcolatrice con GUI che utilizza Python Tkinter
+Calculator with GUI (Tkinter) in python.
