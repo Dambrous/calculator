@@ -1,13 +1,4 @@
-#release 1.0
-#TOOLKIT PYTHON TKINDER
-
-#import tkinter as tk(Doesnt Work without the following function)
-
-import sys
-if sys.version_info[0] == 3:
-    import tkinter as tk
-else:
-    import Tkinter as tk
+#ALL ISTRUCTIONS FOR Tkinter LIBRARY IN ###TabExample.py
 
 #Create a window(ROOT)
 window = tk.Tk()
@@ -22,7 +13,7 @@ window.resizable(False,False)
 window.configure(background="orange")
 
 #Widget-Button(To call up functions)
-first_button = tk.Button(text="Questa è un calcolatrice")
+first_button = tk.Button(text="Questa è un calcolatrice", command=first_print)
 
 #To Place It(Geometry)(System of rows and columns)
 first_button.grid(row=0,column=0)
@@ -32,3 +23,12 @@ if __name__ == "__main__":
 
 #How to display the window
 # window.mainloop()
+
+#PADDING=SPAZIATURA
+#fg=colore
+
+#Per direzionare in base alla colonna(in questo caso a "west")
+#sticky="w"
+
+#Per creare un Input
+#text_input = tk.Entry()
